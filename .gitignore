@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Training outputs (large; regenerate with scripts or attach separately)
+results_bert/
+results_llama32/
+results_llama32_*/
+results_roberta/
+
+# Logs & scratch
+*.log
+*.tmp
+
+# Hugging Face cache (never commit downloaded weights)
+.cache/
+
+# Optional: uncomment if you do not want prediction files in git (they are reproducible)
+# predictions/*.iob2
+# predictions_llama32_zeroshot.iob2
+# test_predictions*.iob2
