@@ -15,3 +15,7 @@ peft>=0.10.0
 
 # Figures in generate_figures.py / generate_pertype_figures.py
 matplotlib>=3.7.0
+
+# Context-shift split (split_data.py): after pip install, run
+#   python -m spacy download en_core_web_sm
+spacy>=3.7.0
